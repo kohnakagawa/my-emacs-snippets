@@ -1,0 +1,12 @@
+#+STARTUP: indent
+#+OPTIONS: ^:{}
+#+AUTHOR: tsunekoh
+* Several snippets for my spacemacs
+- Getting started
+#+BEGIN_SRC bash
+cd .emacs.d
+git clone https://github.com/kohnakagawa/my-emacs-snippets.git private
+#+END_SRC
+* How to insert a snippet
+- type "SPC i s" to insert a snippet.
+- You can make new snippets using "yas-new-snippet".

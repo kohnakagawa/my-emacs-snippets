@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: org-reveal
+# key: orv
+# org -> reveal.js のヘッダー
+# --
+#+STARTUP: indent
+#+OPTIONS: ^:{}
+#+TITLE: Test Org Reveal Config
+#+AUTHOR: tsuneko
+#+LANGUAGE: ja
+#+EMAIL: tsunetsune
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_MATHJAX_URL: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#+REVEAL_MARGIN: 0
+#+REVEAL_MIN_SCALE: 1.0
+#+REVEAL_MAX_SCALE: 5.0
+#+REVEAL_THEME: white
+#+REVEAL_TRANS: linear
+#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_EXTRA_CSS: ./font_size.css
+#+OPTIONS: toc:0
+#+OPTIONS: num:nil
+#+OPTIONS: reveal_title_slide:"<h1>%t</h1><h3>%a</h3>"

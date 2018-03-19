@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: org-header
+# key: orgh
+# org ファイル作成時のheaderとして利用
+# --
+#+STARTUP: indent
+#+OPTIONS: ^:{}
+#+AUTHOR: tsunekou
+#+TITLE: TITLE
+#+LANGUAGE: ja
